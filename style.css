@@ -2000,7 +2000,7 @@ a:hover, a:focus, a.active {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  text-decoration: ;
+  text-decoration:none;
 }
 
 /*------------------------------------------------------------------
