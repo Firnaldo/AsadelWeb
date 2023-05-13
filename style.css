@@ -833,7 +833,7 @@ body.boxed-v #wrapper {
   max-width: 80%;
   margin: 20px auto;
   border-radius: 3px;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 10px rgb(0, 0, 0);
 }
 
 /*------------------------------------------------------------------
@@ -1049,7 +1049,7 @@ a:hover, a:focus, a.active {
 
 #header.sticky {
   position: fixed;
-  background: #fff;
+  background: #050505ad;
   height: auto !important;
   box-shadow: 0 0 11px 2px rgba(0, 0, 0, 0.1);
 }
@@ -1073,7 +1073,7 @@ a:hover, a:focus, a.active {
 -------------------------------------------------------------------*/
 .logo {
   float: left;
-  max-width: 100px;
+  max-width: 500px;
 }
 
 .logo .light {
@@ -1213,7 +1213,7 @@ a:hover, a:focus, a.active {
 -------------------------------------------------------------------*/
 .hero-area {
   overflow: visible;
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   line-height: 26px;
   font-weight: 300;
@@ -1224,6 +1224,7 @@ a:hover, a:focus, a.active {
   background-size: cover;
   background-position: 50% 50%;
   letter-spacing: 1px;
+  opacity: 0.8;
 }
 
 .hero-area.banner {
@@ -1267,7 +1268,7 @@ a:hover, a:focus, a.active {
 }
 
 .hero-area h1 {
-  color: #fff;
+  color: #ffffff;
   font-size: 28px;
   line-height: 30px;
   font-weight: 700;
