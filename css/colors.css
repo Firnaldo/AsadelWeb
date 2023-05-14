@@ -116,6 +116,11 @@ h6 a:hover,
   height: 230px;
 }
 
+.bg-des
+{
+  background-color: rgba(0, 0, 0, 0.314);
+}
+
 .btn-info,
 .btn-default:hover,
 .btn-secondary:hover,
