@@ -830,8 +830,8 @@ body.pattern14 {
 }
 
 body.boxed-v #wrapper {
-  max-width: 80%;
-  margin: 20px auto;
+  max-width: 70%;
+  margin: 21px auto;
   border-radius: 3px;
   box-shadow: 0 0 10px 10px rgb(0, 0, 0);
 }
@@ -1429,22 +1429,22 @@ a:hover, a:focus, a.active {
 16. Features List / .features-list
 -------------------------------------------------------------------*/
 .features-list {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 22px;
   font-family: empty;
 }
 
 .features-list li {
-  padding: 0 15px 0 82px;
+  padding: 0 10px 0 62px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  position: relative;
-  margin: 0 0 30px;
+  position:sticky;
+  margin: 0 0 10px;
   overflow: hidden;
   letter-spacing: 1px;
 }
 
 .features-list h3 {
-  margin: 0 0 15px;
+  margin: 0 0 10px;
   font: 600 16px/20px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -1453,7 +1453,7 @@ a:hover, a:focus, a.active {
   left: 0;
   top: 0;
   text-align: center;
-  width: 64px;
+  width: 100%;
   text-align: center;
 }
 
@@ -1468,7 +1468,7 @@ a:hover, a:focus, a.active {
   color: #51595b;
   position: relative;
   line-height: 32px;
-  padding-bottom: 35px;
+  padding-bottom: 0px;
   letter-spacing: 1px;
 }
 
