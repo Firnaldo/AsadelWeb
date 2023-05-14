@@ -112,7 +112,9 @@ h6 a:hover,
 .clients-testimonial .testimonials-slider .slick-dots li button:hover,
 .clients-testimonial .testimonials-slider .slick-dots .slick-active button {
   /*background-color: $color2;*/
-  background-color: #000000; }
+  background-color: #00c3ff;
+  height: 230px;
+}
 
 .btn-info,
 .btn-default:hover,
