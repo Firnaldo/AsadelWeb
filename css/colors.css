@@ -113,12 +113,13 @@ h6 a:hover,
 .clients-testimonial .testimonials-slider .slick-dots .slick-active button {
   /*background-color: $color2;*/
   background-color: #00c3ff;
-  height: 230px;
 }
 
-.bg-des
+.flexibox
 {
   background-color: rgba(0, 0, 0, 0.314);
+  display:flex;
+  
 }
 
 .btn-info,
