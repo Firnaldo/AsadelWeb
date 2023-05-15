@@ -47,7 +47,7 @@ Theme URI: http://www.htmlbeans.com/html/app-landing
 /*------------------------------------------------------------------
 1. import files / import files
 -------------------------------------------------------------------*/
-.social-networks, .features-list, .facts-list, .demo-block ul, .price-col ul {
+.social-networks, .features-list, .contact, .facts-list, .demo-block ul, .price-col ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -604,6 +604,9 @@ img.aligncenter {
 .alignright {
   float: right;
   margin: 0 0 4px 1.2em;
+}
+.img.alignright{
+  float:right;
 }
 
 .mejs-container {
@@ -1434,13 +1437,30 @@ a:hover, a:focus, a.active {
   font-family: empty;
 }
 
+.contact {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: empty;
+  margin-left: -230px;
+  margin-right: -180px;
+}
+
+.contact h3{
+  color:rgb(0, 183, 255);
+}
+
+.contact h6{
+  color:white;
+  line-height: 0.010;
+}
+
 .features-list li {
   padding: 0 10px 0 62px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   position:sticky;
   margin: 0 0 10px;
   overflow: hidden;
-  letter-spacing: 1px;
+  letter-spacing: 1px; 
 }
 
 .features-list h3 {
