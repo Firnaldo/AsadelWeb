@@ -203,7 +203,8 @@
   .hero-area {
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 60px; }
+    /* dihapus margin-bottom: 10px; */
+  }
     .hero-area .container {
       padding-top: 35px; }
     .hero-area h1 {
@@ -285,10 +286,16 @@
     left: 7.5%; }
   .trial-block {
     line-height: 32px;
-    padding-top: 71px; }
+    padding-top: 71px;
+  }
     .trial-block .alignleft {
       margin: 0 84px 0 -87px;
-      box-shadow: 11px 11px 76px rgba(0, 0, 0, 0.19); }
+      /* box-shadow: 11px 11px 76px rgba(0, 0, 0, 0.19);  */
+    } 
+    .trial-block .alignright {
+      margin: 0 -87px 0 0px;
+      /* box-shadow: 11px 11px 76px rgba(0, 0, 0, 0.19);  */
+    } 
     .trial-block h2 {
       margin: 0 0 36px; }
     .trial-block p {
